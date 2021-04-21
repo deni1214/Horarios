@@ -71,58 +71,8 @@ public class Horarios {
             System.out.println("A la(s)" + clase + " de la madrugada, aun sigo durmiendo");
            
        }
-        System.out.println("Ingresar un numero de la semana");
-       int NumDia = entrada.nextInt();
-       int Dias = 0;
+        
        
-       if (NumDia == 1){
-           NumDia = Dias;
-           System.out.println("Es lunes día habil");
-       }else if (NumDia == 2){
-           NumDia = Dias;
-           System.out.println("Es martes día habil");
-       }else if (NumDia == 3){
-           NumDia = Dias;
-           System.out.println("Es miercoles día habil");
-       }else if (NumDia == 4){
-           NumDia = Dias;
-           System.out.println("Es jueves día habil");
-       }else if (NumDia == 5){
-           NumDia = Dias;
-           System.out.println("Es viernes día habil");
-       }else if (NumDia == 6){
-           NumDia = Dias;
-           System.out.println("Es sabado día inhabil");
-       }else if (NumDia == 7){
-           NumDia = Dias;
-           System.out.println("Es domingo día inhabil");
-           
-       }
-       
-       
-       System.out.println("Ingresa el numero del mes");
-       int NumMes = entrada.nextInt();
-       switch (NumMes)
-       {
-        case 1: case 2: case 3:
-          System.out.println("Primer trimestre");
-          break;
-        
-        case 4: case 5: case 6:
-          System.out.println("Segundo trimestre");
-          break;
-        
-        case 7:  case 8: case 9:
-          System.out.println("Trecer trimestre");
-          break;
-        
-        case 10: case 11: case 12:
-          System.out.println("Cuarto trimestre");
-          break;
-        
-        default:  
-            System.out.println("Error de valor " + NumMes);
-       }
     }
     
 }
